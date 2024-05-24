@@ -105,4 +105,4 @@ app.post(
 // docker build -t your-docker-username/listener-service:v1 -f Dockerfile.listener .
 // docker push your-docker-username/listener-service:v1
 
-// docker run -d --name receiver-service -p 3006:3006 -e MONGO_URL="mongodb+srv://anshul:anshul012@cluster0.murthvg.mongodb.net/iot?retryWrites=true&w=majority&appName=Cluster0" -e REDIS_URL="redis://localhost:6379" ritusingh11/receiver-service:v1
+// docker run -d --name receiver-service -p 3006:3006 -e MONGO_URL="MONGOURL" -e REDIS_URL="redis://localhost:6379" ritusingh11/receiver-service:v1
