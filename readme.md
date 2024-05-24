@@ -16,7 +16,7 @@ Before running the services, ensure that you have the following:
 git clone <repository-url>
 
 
-3. Create a `.env` file in both the `receiver-service` and `listener-service` directories with the following content:
+3. Create a `.env` file 
 MONGO_URL=<your-mongodb-atlas-url>
 REDIS_URL=<your-redis-url> || redis://localhost:6379
 Copy codeReplace `<your-mongodb-atlas-url>` with your actual MongoDB Atlas connection URL and `<your-redis-url>` with the URL of your Redis server.
